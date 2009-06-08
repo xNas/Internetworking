@@ -1,0 +1,26 @@
+USO
+===
+
+Para compilar:
+	gcc -g -o client client.c
+Para ejectuar (si no hubo errores se tiene que haber creado el ejecutable client):
+	./client
+
+Este cliente se conecta a un servidor TFTP de la misma maquina, y pide un archivo llamado "ascii.txt" (que debería contener sólo texto por ahora) y lo guarda en otro llamado "temporal.txt"
+
+
+
+
+BUGS
+====
+
+Por algún motivo el archivo que genera no es el mismo que envia el servidor
+
+
+
+
+
+TODO
+====
+
+Muuuuchas cosas... en un principio, hacer que esta función _funcione_. Luego de eso, hay que modularizar el sistema para poder agregar la función de enviar archivos y las que sean necesarias. Luego crear la interfaz con el usuario.
